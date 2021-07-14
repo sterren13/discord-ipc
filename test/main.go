@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sterren13/discord-ipc/client"
+	"github.com/sterren13/Custom-Window-Overlay/client"
 )
 
 func main() {
-	err := client.Login("DISCORD_APP_ID")
+	err := client.Login("863209778687377408")
 	if err != nil {
 		panic(err)
 	}
@@ -44,5 +44,5 @@ func main() {
 	// Discord will only show the presence if the app is running
 	// Sleep for a few seconds to see the update
 	fmt.Println("Sleeping...")
-	time.Sleep(time.Second * 10)
+	time.Sleep(time.Second * 100)
 }
