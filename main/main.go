@@ -16,9 +16,9 @@ func main() {
 	now := time.Now()
 	err = client.SetActivity(client.Activity{
 		State:      "Heyy!!!",
-		Details:    "I'm running on rich-go :)",
+		Details:    "I'm running Custom Window Overlay",
 		LargeImage: "largeimageid",
-		LargeText:  "This is the large image :D",
+		LargeText:  "Custom Window Overlay",
 		SmallImage: "smallimageid",
 		SmallText:  "And this is the small image",
 		Party: &client.Party{
@@ -32,7 +32,7 @@ func main() {
 		Buttons: []*client.Button{
 			&client.Button{
 				Label: "GitHub",
-				Url:   "https://github.com/hugolgst/rich-go",
+				Url:   "https://github.com/sterren13/discord-ipc",
 			},
 		},
 	})
@@ -44,5 +44,5 @@ func main() {
 	// Discord will only show the presence if the app is running
 	// Sleep for a few seconds to see the update
 	fmt.Println("Sleeping...")
-	time.Sleep(time.Second * 100)
+	time.Sleep(time.Second * 20)
 }
