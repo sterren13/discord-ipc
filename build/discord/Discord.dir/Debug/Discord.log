@@ -1,6 +1,0 @@
-﻿  Building Custom Rule C:/Users/arno/Documents/GitHub/discord-ipc/discord/CMakeLists.txt
-  connection_win.cpp
-  rpc_connection.cpp
-  serialization.cpp
-  Generating Code...
-  Discord.vcxproj -> C:\Users\arno\Documents\GitHub\discord-ipc\build\discord\Debug\Discord.lib

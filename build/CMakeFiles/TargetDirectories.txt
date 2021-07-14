@@ -1,6 +1,0 @@
-C:/Users/arno/Documents/GitHub/discord-ipc/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/arno/Documents/GitHub/discord-ipc/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/arno/Documents/GitHub/discord-ipc/build/discord/CMakeFiles/Discord.dir
-C:/Users/arno/Documents/GitHub/discord-ipc/build/discord/CMakeFiles/ALL_BUILD.dir
-C:/Users/arno/Documents/GitHub/discord-ipc/build/main/CMakeFiles/Main.dir
-C:/Users/arno/Documents/GitHub/discord-ipc/build/main/CMakeFiles/ALL_BUILD.dir
