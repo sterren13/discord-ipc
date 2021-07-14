@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sterren13/Custom-Window-Overlay/client"
+	"github.com/sterren13/discord-ipc/client"
 )
 
 func main() {
