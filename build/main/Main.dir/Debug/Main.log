@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\arno\Documents\GitHub\discord-ipc\discord\lib\rapidjson-1.1.0\include\rapidjson/document.h(958,76): warning C4003: not enough arguments for function-like macro invocation 'max'
+C:\Users\arno\Documents\GitHub\discord-ipc\discord\lib\rapidjson-1.1.0\include\rapidjson/document.h(964,76): warning C4003: not enough arguments for function-like macro invocation 'min'
+C:\Users\arno\Documents\GitHub\discord-ipc\discord\lib\rapidjson-1.1.0\include\rapidjson/document.h(965,75): warning C4003: not enough arguments for function-like macro invocation 'max'
+C:\Users\arno\Documents\GitHub\discord-ipc\discord\lib\rapidjson-1.1.0\include\rapidjson/document.h(982,66): warning C4003: not enough arguments for function-like macro invocation 'max'
+C:\Users\arno\Documents\GitHub\discord-ipc\discord\lib\rapidjson-1.1.0\include\rapidjson/document.h(983,72): warning C4003: not enough arguments for function-like macro invocation 'max'
+  Main.vcxproj -> C:\Users\arno\Documents\GitHub\discord-ipc\build\main\Debug\Main.exe

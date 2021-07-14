@@ -52,7 +52,8 @@ int main(){
         Sleep(1000);
         if (Connection->Read(out)) {
             std::cout << "uitgelezen" << std::endl;
-            std::cout << "nonce: " << GetStrMember(&out, ", nonce") << "event: " << GetStrMember(&out, "evt") << ", data: " << GetObjMember(&out, "data") << ", code: " << GetIntMember(&out, "code") << std::endl;
+            auto data = GetObjMember(&out, "data");
+            std::cout << "event: " << GetStrMember(&out, "evt") << ", code: " << GetIntMember(data, "code") << ", message: " << GetStrMember(data, "message", "") << std::endl;
         }
         else {
             std::cout << "niet uitgelezen" << std::endl;
