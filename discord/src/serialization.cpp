@@ -187,7 +187,8 @@ size_t JsonWriteAuthorize(char* dest, size_t maxLen, int nonce, const char* appl
 
     {
         WriteObject obj(writer);
-        JsonWriteNonce(writer, nonce);
+        WriteKey(writer, "nonce");
+        writer.String("5102b6f0-c769-4f37-8cca-25fb0ab22628");
 
         WriteKey(writer, "args");
             {

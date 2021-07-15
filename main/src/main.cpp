@@ -1,5 +1,6 @@
 #include <iostream>
 #include <Windows.h>
+#include <string>
 
 #include "rpc_connection.h"
 #include "serialization.h"
@@ -24,6 +25,13 @@ void PrintState(RpcConnection* Connection) {
         break;
     }
 }
+void PrintBuffer(char* buf, size_t lengt) {
+    for (int i = 0; i < lengt / sizeof(char); i++) {
+        std::cout << buf[i];
+    }
+    std::cout << std::endl;
+
+}
 
 int main(){
     RpcConnection* Connection = RpcConnection::Create("740900603294646374");
@@ -42,7 +50,8 @@ int main(){
 
     //Connection->test();
     char msg[16 * 1024];
-    size_t size = JsonWriteAuthorize(msg, sizeof(msg), 54064654, "740900603294646374", { "rpc", "idet" });
+    size_t size = JsonWriteAuthorize(msg, sizeof(msg), 123, "740900603294646374", {"rpc"});
+    PrintBuffer(msg, size);
     if (Connection->Write(&msg, size)) {
         std::cout << "verzonden" << std::endl;
     }
